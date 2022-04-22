@@ -1,0 +1,3 @@
+Token = ''
+Chatid = ''
+directory = ''

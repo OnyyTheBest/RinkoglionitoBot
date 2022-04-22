@@ -1,0 +1,5 @@
+yt_dlp
+youtube_search
+telegram
+python-telegram-bot
+spotipy
