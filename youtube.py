@@ -2,6 +2,7 @@ from telegram.ext import *
 from telegram import *
 import requests
 import yt_dlp
+import config
 from youtube_search import YoutubeSearch
 import os
 from os import path
@@ -26,7 +27,7 @@ def ytdownload(update: Updater, context: CallbackContext):
         daudh = info.get('duration', None)
         ydl_optssx = {
                     "format": "bestaudio/best",
-                    "outtmpl": f"/home/ubuntu/Rinkoglionito/music/{title1}.mp3",
+                    "outtmpl": f"{config.directory}/{title1}.mp3",
                     "geo_bypass": True,
                     "nocheckcertificate": True,
                     "quiet": True,
@@ -37,7 +38,7 @@ def ytdownload(update: Updater, context: CallbackContext):
         dloader
         xyz = path.join("music", f"{info['title']}.{info['ext']}")
         context.bot.edit_message_text(chat_id=update.effective_chat.id, message_id=update.message.message_id + 1, text=f"Download complete, starting upload...\n MADE WITH ❤ BY @OnyyTheBest && @AmicioEspyy\n", parse_mode="html")
-        context.bot.send_audio(chat_id=update.effective_chat.id, audio=open(f'/home/ubuntu/Rinkoglionito/music/{title1}.mp3', 'rb'),
+        context.bot.send_audio(chat_id=update.effective_chat.id, audio=open(f'{config.directory}/{title1}.mp3', 'rb'),
                                         caption="Share this bot to support us ❤️", title=f"{title1}", duration=f"{daudh}")    
     else:
         url = ''
@@ -53,7 +54,7 @@ def ytdownload(update: Updater, context: CallbackContext):
         context.bot.send_message(chat_id=update.effective_chat.id, text=f"<b>Starting download of {title}...</b>", parse_mode="html")
         ydl_optssx = {
             "format": "bestaudio/best",
-            "outtmpl": f"/home/ubuntu/Rinkoglionito/music/{title}.mp3",
+            "outtmpl": f"{config.directory}/{title}.mp3",
             "geo_bypass": True,
             "nocheckcertificate": True,
             "quiet": True,
@@ -68,7 +69,7 @@ def ytdownload(update: Updater, context: CallbackContext):
             context.bot.edit_message_text(chat_id=update.effective_chat.id, message_id=update.message.message_id + 1, text=f"Download complete, starting upload...\n MADE WITH ❤ BY @OnyyTheBest && @AmicioEspyy\n", parse_mode="html")
             dloader
         xyz = path.join("music", f"{info['title']}.{info['ext']}")
-        cixao = open(f"/home/ubuntu/Rinkoglionito/music/{title}.mp3", 'rb')
+        cixao = open(f"{config.directory}/{title}.mp3", 'rb')
         daudh = info.get('duration', None)
         context.bot.send_audio(chat_id=update.effective_chat.id, audio=cixao, duration=daudh)
         return xyz
