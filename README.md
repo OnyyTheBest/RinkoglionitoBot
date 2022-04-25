@@ -19,7 +19,7 @@
 
 ## 😎 Nᴇᴄᴇssᴀʀʏ steps
 
-1 do in cmd python3 gui.py
-2 compile all and rename the config.txt in config.py
-3 start python3 main.py
-done 
+1 do in cmd python3 gui.py<br>
+2 compile all and rename the config.txt in config.py<br>
+3 start python3 main.py<br>
+done<br>
