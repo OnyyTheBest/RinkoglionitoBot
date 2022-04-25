@@ -4,7 +4,7 @@
     <img src="https://telegra.ph/file/1b37f9b5459ff4528c96b.png">
   </p>
 </a>
-<a href="https://discord.gg/MNsJu4AjxJ"><img alt="Website" src="https://telegra.ph/file/616bc0732af400e09ccb3.png"></a>
+<a href="https://discord.gg/vjPHTGREvb"><img alt="Website" src="https://telegra.ph/file/616bc0732af400e09ccb3.png"></a>
 
 
 ### 🛠️ Lᴀɴɢᴜᴀɢᴇs Aɴᴅ Tᴏᴏʟs
@@ -15,4 +15,11 @@
 ## 🗒️ Nᴇᴄᴇssᴀʀʏ Requirments
 
 ☞ `Python 3.9.7 or higher` - Get python from [python.org](https://www.python.org/downloads/)<br>
-☞ `Telegram` - Get chrome web driver for your version of chrome here[chromedriver.chromium.org](https://chromedriver.chromium.org/downloads)<br>
+☞ `Telegram` - Get chrome web driver for your version of chrome here [telegram.org](https://telegram.org/downloads)<br>
+
+## 😎 Nᴇᴄᴇssᴀʀʏ steps
+
+1 do in cmd python3 gui.py
+2 compile all and rename the config.txt in config.py
+3 start python3 main.py
+done 
