@@ -42,9 +42,6 @@ def ytdl(update,context):
 def sptd(update,context):
     spotify.sptd(update, context)
 
-def chK(update,context):
-    chk.chk(update, context)
-
 def oldupdate(update,context):
     startt.oldupdate(update, context)
 
@@ -67,7 +64,6 @@ vip_handler = CommandHandler('vip', vip)
 ip_handler = CommandHandler('ipinfo', ipinfo)
 ytd_handler = CommandHandler('ytd', ytdl)
 sptd_handler = CommandHandler('sptd', sptd)
-chk_handler = CommandHandler('chk', chK)
 oldupdate_handler = CommandHandler('oldupdate', oldupdate)
 update_handler = CommandHandler('update', update)
 bcast_handler = CommandHandler('bcast', bcast)
@@ -82,7 +78,6 @@ dispatcher.add_handler(vip_handler)
 dispatcher.add_handler(ip_handler)
 dispatcher.add_handler(ytd_handler)
 dispatcher.add_handler(sptd_handler)
-dispatcher.add_handler(chk_handler)
 dispatcher.add_handler(bcast_handler)
 dispatcher.add_handler(oldupdate_handler)
 dispatcher.add_handler(update_handler)
