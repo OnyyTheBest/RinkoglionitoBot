@@ -1,4 +1,4 @@
-# FormsAutoCompiler
+# RinkoglionitoBot
 <a href="https://t.me/Rinkoglionitobot"><center><img alt="website" src="https://telegra.ph/file/1b37f9b5459ff4528c96b.png"></center></a>
 <a href="https://discord.gg/MNsJu4AjxJ"><img alt="Website" src="https://telegra.ph/file/616bc0732af400e09ccb3.png"></a>
 
