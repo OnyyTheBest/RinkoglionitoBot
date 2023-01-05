@@ -4,8 +4,6 @@
     <img src="https://telegra.ph/file/1b37f9b5459ff4528c96b.png">
   </p>
 </a>
-<a href="https://discord.gg/vjPHTGREvb"><img alt="Website" src="https://telegra.ph/file/616bc0732af400e09ccb3.png"></a>
-
 
 ### 🛠️ Lᴀɴɢᴜᴀɢᴇs Aɴᴅ Tᴏᴏʟs
 
